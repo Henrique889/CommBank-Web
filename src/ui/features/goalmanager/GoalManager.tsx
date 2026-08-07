@@ -104,6 +104,11 @@ export function GoalManager(props: Props) {
       // TODO(TASK-3) Update database
     }
 
+    const addIconOnClick = (event: React.MouseEvent) => {
+      event.stopPropagation()
+      setEmojiPickerIsOpen(true)
+    }
+
 
   return (
     <GoalManagerContainer>
