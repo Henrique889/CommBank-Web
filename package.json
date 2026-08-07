@@ -58,5 +58,15 @@
     "@types/emoji-mart": "^3.0.9",
     "@types/react-dom": "^18.0.5",
     "@types/styled-components": "^5.1.25"
+  },
+  "allowScripts": {
+    "emoji-mart@3.0.1": true,
+    "@fortawesome/fontawesome-common-types@6.1.1": true,
+    "@fortawesome/fontawesome-svg-core@6.1.1": true,
+    "@fortawesome/free-regular-svg-icons@6.1.1": true,
+    "@fortawesome/free-solid-svg-icons@6.1.1": true,
+    "core-js@3.22.8": true,
+    "core-js-pure@3.22.8": true,
+    "styled-components@5.3.5": true
   }
 }
