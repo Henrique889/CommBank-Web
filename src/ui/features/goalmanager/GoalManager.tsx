@@ -73,7 +73,7 @@ export function GoalManager(props: Props) {
       targetDate: targetDate ?? props.goal.targetDate,
       targetAmount: nextTargetAmount,
     }
-    dispatch(updateGoalRedux(updatedGoal))
+    //dispatch(updateGoalRedux(updatedGoal))
     updateGoalApi(props.goal.id, updatedGoal)
   }
 
@@ -104,8 +104,8 @@ export function GoalManager(props: Props) {
         targetAmount: targetAmount ?? props.goal.targetAmount,
       }
 
-      dispatch(updateGoalRedux(updatedGoal))
-
+      //dispatch(updateGoalRedux(updatedGoal))
+      updateGoalApi(props.goal.id, updatedGoal) 
       // TODO(TASK-3) Update database
     }
 
